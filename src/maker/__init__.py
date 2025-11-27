@@ -67,6 +67,24 @@ from .api import (
     recommend,
 )
 
+from .research_agents import (
+    ResearchType,
+    SourceType,
+    Source,
+    Finding,
+    ResearchQuery,
+    ResearchResult,
+    QueryDecomposerAgent,
+    SourceDiscoveryAgent,
+    InformationExtractorAgent,
+    FactVerifierAgent,
+    SynthesisAgent,
+    GapIdentifierAgent,
+    FollowUpGeneratorAgent,
+    ResearchDecomposer,
+    RESEARCH_RED_FLAG_CRITERIA,
+)
+
 __version__ = "0.1.0"
 
 __all__ = [
@@ -113,4 +131,20 @@ __all__ = [
     "DiscoveryRequest",
     "DiscoveryResponse",
     "recommend",
+    # Research Agents
+    "ResearchType",
+    "SourceType",
+    "Source",
+    "Finding",
+    "ResearchQuery",
+    "ResearchResult",
+    "QueryDecomposerAgent",
+    "SourceDiscoveryAgent",
+    "InformationExtractorAgent",
+    "FactVerifierAgent",
+    "SynthesisAgent",
+    "GapIdentifierAgent",
+    "FollowUpGeneratorAgent",
+    "ResearchDecomposer",
+    "RESEARCH_RED_FLAG_CRITERIA",
 ]
