@@ -85,6 +85,37 @@ from .research_agents import (
     RESEARCH_RED_FLAG_CRITERIA,
 )
 
+from .deep_research import (
+    # Data models
+    ConfidenceLevel,
+    SearchResult,
+    Finding as DeepFinding,
+    ResearchReport,
+    # Search
+    WebSearchClient,
+    # Voting
+    Vote,
+    MAKERVoting,
+    # Agents
+    QueryDecomposer,
+    InformationExtractor,
+    FactVerifier,
+    Synthesizer,
+    GapIdentifier,
+    FollowUpGenerator,
+    # Main researcher
+    DeepResearcher,
+    # Utilities
+    run_research,
+    format_report,
+)
+
+from .research_runner import (
+    MAKERResearchRunner,
+    InteractiveResearchSession,
+    parse_web_search_output,
+)
+
 from .universal_solver import (
     # Protocols (technology-agnostic interfaces)
     Reasoning,
@@ -174,6 +205,26 @@ __all__ = [
     "FollowUpGeneratorAgent",
     "ResearchDecomposer",
     "RESEARCH_RED_FLAG_CRITERIA",
+    # Deep Research (Working Implementation)
+    "ConfidenceLevel",
+    "SearchResult",
+    "DeepFinding",
+    "ResearchReport",
+    "WebSearchClient",
+    "Vote",
+    "MAKERVoting",
+    "QueryDecomposer",
+    "InformationExtractor",
+    "FactVerifier",
+    "Synthesizer",
+    "GapIdentifier",
+    "FollowUpGenerator",
+    "DeepResearcher",
+    "run_research",
+    "format_report",
+    "MAKERResearchRunner",
+    "InteractiveResearchSession",
+    "parse_web_search_output",
     # Universal Solver
     "Reasoning",
     "Memory",
