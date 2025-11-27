@@ -85,6 +85,33 @@ from .research_agents import (
     RESEARCH_RED_FLAG_CRITERIA,
 )
 
+from .universal_solver import (
+    # Protocols (technology-agnostic interfaces)
+    Reasoning,
+    Memory,
+    Tool,
+    # Mathematical foundations
+    MathematicalGuarantees,
+    # Universal problem representation
+    ProblemType,
+    UniversalProblem,
+    Solution,
+    # Decomposition
+    DecompositionStrategy,
+    RecursiveDecomposition,
+    AnalogicalDecomposition,
+    MetaDecomposer,
+    # Voting
+    VoteWithProof,
+    UniversalVoting,
+    # Agents
+    UniversalAgent,
+    AgentFactory,
+    # Main solver
+    UMAPS,
+    create_universal_solver,
+)
+
 __version__ = "0.1.0"
 
 __all__ = [
@@ -147,4 +174,22 @@ __all__ = [
     "FollowUpGeneratorAgent",
     "ResearchDecomposer",
     "RESEARCH_RED_FLAG_CRITERIA",
+    # Universal Solver
+    "Reasoning",
+    "Memory",
+    "Tool",
+    "MathematicalGuarantees",
+    "ProblemType",
+    "UniversalProblem",
+    "Solution",
+    "DecompositionStrategy",
+    "RecursiveDecomposition",
+    "AnalogicalDecomposition",
+    "MetaDecomposer",
+    "VoteWithProof",
+    "UniversalVoting",
+    "UniversalAgent",
+    "AgentFactory",
+    "UMAPS",
+    "create_universal_solver",
 ]
