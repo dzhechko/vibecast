@@ -10,7 +10,8 @@ Based on extensive research analysis, this report synthesizes findings on develo
 
 **Market Position Analysis:**
 - Russia's cloud market was valued at $1.8 billion in 2023, with AI services representing 15-20% of this segment [CONFIDENCE: 85%]
-- Local players (Yandex.Cloud, VK Cloud, SberCloud) control ~60% of enterprise cloud market
+- Local players (Yandex.Cloud, VK Cloud, Cloud.ru) control ~60% of enterprise cloud market
+> *Note: SberCloud was rebranded to Cloud.ru; Sber remains a strategic technology partner*
 - Regulatory compliance (data localization laws) creates significant barriers for international providers
 
 **Technology Infrastructure Status:**
@@ -152,13 +153,14 @@ Based on extensive research analysis, this report synthesizes findings on develo
 
 #### Competitive Differentiation Matrix
 
-| Capability | Cloud.ru AI | Yandex.Cloud | SberCloud | International |
-|------------|-------------|--------------|-----------|---------------|
+| Capability | Cloud.ru AI | Yandex.Cloud | VK Cloud | International |
+|------------|-------------|--------------|----------|---------------|
 | Data Sovereignty | ★★★★★ | ★★★★☆ | ★★★★☆ | ★★☆☆☆ |
-| AI Model Quality | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★★ |
-| Enterprise Integration | ★★★★★ | ★★★☆☆ | ★★★★☆ | ★★☆☆☆ |
+| AI Model Quality (GigaChat+) | ★★★★★ | ★★★★☆ | ★★★☆☆ | ★★★★★ |
+| Enterprise Integration | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★☆☆☆ |
 | International Reach | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★★★ |
 | Cost Efficiency | ★★★★★ | ★★★☆☆ | ★★★☆☆ | ★★☆☆☆ |
+| Sber Ecosystem Access | ★★★★★ | ★☆☆☆☆ | ★★☆☆☆ | ☆☆☆☆☆ |
 
 ## 20-Year Technology Roadmap
 

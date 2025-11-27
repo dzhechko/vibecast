@@ -198,6 +198,38 @@ vibecast/
 pytest tests/test_maker.py -v
 ```
 
+## Research Materials
+
+The `/research` directory contains comprehensive research on enterprise AI infrastructure:
+
+### LLM Proxy Security & Performance (2025)
+Enterprise-grade best practices for production LLM Proxy deployments:
+
+- **[LLM Proxy Security & Performance Best Practices](/research/llm-proxy-security-performance-best-practices-2025.md)** (60KB)
+  - Security: Multi-layer defense, zero-trust architecture, prompt injection protection
+  - Performance: Continuous batching, connection pooling, semantic caching
+  - Reliability: Multi-region HA, disaster recovery, 99.95% SLA
+  - Compliance: GDPR, HIPAA, SOC 2 requirements and implementation
+
+- **[Production Checklist](/research/llm-proxy-production-checklist.md)** (12KB)
+  - Quick reference guide with 5-phase roadmap
+  - Security, performance, HA, and compliance checklists
+  - Technology stack recommendations
+  - 6-month implementation timeline
+
+### Hybrid Cloud & AI Platforms
+- [Hybrid Cloud AI Platform (2025-2045)](/research/hybrid-cloud-ai-platform-2025-2045.md)
+- [Pan-Regional Hybrid Cloud AI (2024-2044)](/research/hybrid-cloud-ai-platform-pan-regional-2024-2044.md)
+- [Competitive Analysis: Multi-Agent AI Platforms](/research/competitive-analysis-multi-agent-ai-platforms-cloud-ru-2025.md)
+
+### Multi-Agent & Edge Computing
+- [Multi-Agent AI Systems (2025-2045)](/research/multi-agent-ai-systems-2025-2045.md)
+- [Autonomous Systems Edge Computing (2025-2045)](/research/autonomous-systems-edge-computing-2025-2045.md)
+- [Edge Computing: Latency, Privacy, Localization (2025-2045)](/research/edge-computing-latency-privacy-localization-2025-2045.md)
+
+### IoT & Network Infrastructure
+- [IoT 5G/6G Edge AI Integration (2025-2040)](/research/iot-5g-6g-edge-ai-integration-2025-2040.md)
+
 ## References
 
 - **Paper**: [Solving a Million-Step LLM Task with Zero Errors](https://arxiv.org/abs/2511.09030)
