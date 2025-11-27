@@ -50,9 +50,13 @@
    - ROI: 200-400% в течение 12-24 месяцев
 
 3. **Конкурентное давление:**
-   - Yandex Cloud: 42 млрд руб инвестиций (2025-2026)
-   - SberCloud: GigaChat + мультиагентная архитектура
+   - Yandex Cloud: 42 млрд руб инвестиций (2025-2026), агрессивная экспансия
+   - VK Cloud: развитие AI-сервисов
    - Глобальные игроки недоступны → стратегическая возможность
+
+4. **Стратегическое партнёрство:**
+   - Sber/GigaChat — ключевой технологический партнёр Cloud.ru
+   - Интеграция GigaChat в платформу как приоритетная LLM
 
 ### 1.2 Рекомендуемая Архитектура
 
@@ -584,15 +588,16 @@ HA Configuration:
 
 ### 4.2 Ключевые Дифференциаторы
 
-| # | Дифференциатор | vs Yandex | vs Sber | vs AWS/Azure |
-|---|----------------|-----------|---------|--------------|
+| # | Дифференциатор | vs Yandex | vs VK Cloud | vs AWS/Azure |
+|---|----------------|-----------|-------------|--------------|
 | 1 | **Data Sovereignty** | = | = | ✅ Преимущество |
-| 2 | **Multi-vendor LLM** | ✅ | ✅ | N/A |
-| 3 | **Open-Source First** | ✅ | ✅ | ✅ |
-| 4 | **Pan-Regional Focus** | ✅ | ✅ | N/A |
-| 5 | **Cost Efficiency** | = | = | ✅ 40-60% дешевле |
-| 6 | **Edge-Cloud Continuum** | ✅ | ✅ | N/A |
-| 7 | **Neutral Platform** | ✅ | ✅ | N/A |
+| 2 | **GigaChat Integration** | ✅ Партнёрство Sber | ✅ | N/A |
+| 3 | **Multi-vendor LLM** | ✅ | ✅ | N/A |
+| 4 | **Open-Source First** | ✅ | ✅ | ✅ |
+| 5 | **Pan-Regional Focus** | ✅ | ✅ | N/A |
+| 6 | **Cost Efficiency** | = | = | ✅ 40-60% дешевле |
+| 7 | **Edge-Cloud Continuum** | ✅ | ✅ | N/A |
+| 8 | **Sber Ecosystem** | ✅ Партнёр | = | N/A |
 
 ### 4.3 Messaging Framework
 
@@ -725,7 +730,7 @@ Taglines:
 
 | Риск | Вероятность | Влияние | Митигация |
 |------|-------------|---------|-----------|
-| **Yandex/Sber aggressive expansion** | Высокая | Высокое | Differentiation, speed-to-market |
+| **Yandex aggressive expansion** | Высокая | Высокое | Differentiation, speed-to-market, Sber partnership leverage |
 | **Hardware sanctions** | Высокая | Критическое | China partnership, stockpiling |
 | **Technology obsolescence** | Средняя | Высокое | Continuous R&D, open-source |
 | **Talent shortage** | Высокая | Среднее | University partnerships, remote |
@@ -751,7 +756,7 @@ Scenario: Key competitor acquisition
 
 ### Критические Выводы
 
-1. **Окно возможностей 2025-2027 является критическим** — промедление приведёт к потере рынка в пользу Yandex/Sber
+1. **Окно возможностей 2025-2027 является критическим** — промедление приведёт к потере рынка в пользу Yandex Cloud
 
 2. **Мультиагентная платформа — не опция, а необходимость** — 40% enterprise приложений будут включать агентов к 2026
 

@@ -822,10 +822,11 @@ CEO Agent (стратегия)
 - ✅ Enterprise governance (IBM watsonx-подобный)
 - ✅ Pan-regional expansion (Yandex - только Россия)
 
-**vs. SberCloud:**
-- ✅ Neutral platform (не банковская вертикаль)
-- ✅ Open ecosystem (не только GigaChat)
-- ✅ Hybrid architecture (Sber - преимущественно private)
+**Партнёрство с Sber (конкурентное преимущество):**
+- ✅ GigaChat как приоритетная LLM в платформе
+- ✅ Доступ к Sber экосистеме и клиентской базе
+- ✅ Совместные R&D инициативы
+> *Примечание: SberCloud — прежнее название Cloud.ru, Sber — стратегический партнёр*
 
 **vs. International players (если вернутся):**
 - ✅ Data sovereignty guarantee
@@ -1196,13 +1197,13 @@ CEO Agent (стратегия)
 
 ### Рыночные Риски
 
-**Риск 4: Yandex/Sber Aggressive Expansion**
+**Риск 4: Yandex Aggressive Expansion**
 - **Вероятность**: Высокая
 - **Митигация**:
-  - Multi-vendor positioning (не lock-in)
+  - Multi-vendor positioning (не lock-in в YandexGPT)
   - Superior developer experience
-  - Pan-regional expansion (они focused на Russia)
-  - Enterprise governance (Sber - конфликт интересов для competitors)
+  - Pan-regional expansion (Yandex focused на Russia)
+  - Sber partnership leverage (GigaChat + экосистема)
 
 **Риск 5: Geopolitical Isolation**
 - **Вероятность**: Средняя-высокая
@@ -1275,11 +1276,12 @@ CEO Agent (стратегия)
 
 ✅ **Technology доступна** - не нужно изобретать, нужно интегрировать
 ✅ **Market готов** - enterprises ищут sovereign AI solutions
-✅ **Competition ограничена** - Yandex/Sber focused на proprietary models
+✅ **Competition ограничена** - Yandex focused на proprietary models
 ✅ **Window открыто** - 2025-2027 для первопроходцев
+✅ **Sber partnership** - GigaChat + экосистема как конкурентное преимущество
 
 **ЕСЛИ НЕ ДЕЙСТВОВАТЬ:**
-- Yandex/Sber захватят enterprise market
+- Yandex захватит enterprise market
 - Western players вернутся (если sanctions ослабнут)
 - Упущенный market: $3B+ к 2030 (только Россия)
 
